@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import '@fontsource/outfit/400.css';
+@import '@fontsource/outfit/500.css';
+@import '@fontsource/outfit/600.css';
+@import '@fontsource/outfit/700.css';
+@import '@fontsource/manrope/400.css';
+@import '@fontsource/manrope/500.css';
+@import '@fontsource/manrope/600.css';
+
+@theme {
+  --font-sans: 'Manrope', 'sans-serif';
+  --font-display: 'Outfit', 'sans-serif';
+
+  --color-primary: #0F172A;
+  --color-primary-light: #334155;
+  --color-primary-dark: #020617;
+
+  --color-secondary: #64748B;
+  --color-secondary-light: #94A3B8;
+
+  --color-accent: #D4AF37;
+  --color-accent-hover: #B59326;
+
+  --color-neutral: #F8FAFC;
+  --color-neutral-dark: #E2E8F0;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+}
+
+html {
+  font-size: 90%;
+  /* Smaller scale */
+}
+
+body {
+  @apply bg-neutral text-primary font-sans antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-display text-primary;
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
