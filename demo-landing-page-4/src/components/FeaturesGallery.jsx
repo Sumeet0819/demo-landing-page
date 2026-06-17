@@ -15,7 +15,7 @@ const features = [
   {
     topTitle: 'Get\nStarted Now',
     title: 'Organic Fertilizer',
-    img: 'https://images.unsplash.com/photo-1592982537447-6f2334862a98?q=80&w=2070&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1536657464919-892534f60d6e?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     number: '02',
     isCTA: true
   },
@@ -26,7 +26,7 @@ const features = [
   },
   {
     title: 'Agricultural Monitoring',
-    img: 'https://images.unsplash.com/photo-1586771107445-d3af10a40f8b?q=80&w=1976&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1505764706515-aa95265c5abc?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     number: '04'
   }
 ];
@@ -53,6 +53,23 @@ const FeaturesGallery = () => {
           scrollTrigger: { trigger: '.feat-gallery', start: 'top 80%' }
         }
       );
+
+      // Parallax effect on images
+      gsap.utils.toArray('.parallax-img').forEach(img => {
+        gsap.fromTo(img, 
+          { yPercent: -10 },
+          {
+            yPercent: 10,
+            ease: 'none',
+            scrollTrigger: {
+              trigger: img.parentElement,
+              start: 'top bottom',
+              end: 'bottom top',
+              scrub: true,
+            }
+          }
+        );
+      });
     }, sectionRef);
 
     return () => ctx.revert();
@@ -64,10 +81,10 @@ const FeaturesGallery = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-12 mb-16">
         <div className="flex flex-col gap-16 w-full md:w-1/3">
           <span className="feat-text opacity-0 text-sm font-medium text-gray-500">2024</span>
-          <div className="feat-text opacity-0 flex gap-4 text-[10px] font-semibold uppercase tracking-widest">
-            <span className="text-brand-dark">Organic farm</span>
-            <span className="text-gray-400">Automation farm</span>
-            <span className="text-gray-400">Bio-medical farm</span>
+          <div className="feat-text opacity-0 flex gap-4 text-[10px] font-semibold uppercase tracking-widest cursor-pointer">
+            <span className="text-brand-dark hover:text-brand-orange transition-colors">Organic farm</span>
+            <span className="text-gray-400 hover:text-brand-dark transition-colors">Automation farm</span>
+            <span className="text-gray-400 hover:text-brand-dark transition-colors">Bio-medical farm</span>
           </div>
         </div>
         
@@ -75,9 +92,9 @@ const FeaturesGallery = () => {
           <h2 className="text-2xl md:text-4xl font-medium text-brand-dark leading-snug">
             Despite Advances In Agri-Tech, Traditional Labor-Intensive Farming Highlights Ongoing Inefficiencies.
           </h2>
-          <div className="flex gap-12 text-xs font-semibold text-gray-400 uppercase tracking-widest">
-            <span>Harvesting Legacy</span>
-            <span>Planting Tomorrow</span>
+          <div className="flex gap-12 text-xs font-semibold text-gray-400 uppercase tracking-widest cursor-pointer">
+            <span className="hover:text-brand-dark transition-colors">Harvesting Legacy</span>
+            <span className="hover:text-brand-dark transition-colors">Planting Tomorrow</span>
           </div>
         </div>
       </div>
@@ -90,10 +107,10 @@ const FeaturesGallery = () => {
             {/* Top Content for CTA card */}
             {feat.isCTA && (
               <div className="flex justify-between items-start w-full px-2">
-                <h3 className="text-2xl font-medium text-brand-dark leading-tight whitespace-pre-line">
+                <h3 className="text-2xl font-medium text-brand-dark leading-tight whitespace-pre-line group-hover:text-brand-orange transition-colors duration-300 cursor-pointer">
                   {feat.topTitle}
                 </h3>
-                <div className="bg-brand-dark text-white p-2 rounded-full cursor-pointer hover:bg-black transition-colors shrink-0">
+                <div className="bg-brand-dark text-white p-2 rounded-full cursor-pointer hover:bg-brand-orange hover:scale-110 transition-all duration-300 shrink-0 shadow-md">
                   <ArrowUpRight className="w-4 h-4" />
                 </div>
               </div>
@@ -103,7 +120,7 @@ const FeaturesGallery = () => {
               <img 
                 src={feat.img} 
                 alt={feat.title || feat.topTitle} 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="parallax-img w-full h-[120%] object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
             

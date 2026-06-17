@@ -29,7 +29,6 @@
 html, body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  cursor: none; /* Hide default cursor */
   overflow-x: hidden;
   width: 100%;
 }
@@ -38,10 +37,7 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Base link and button cursor reset */
-a, button, [role="button"], input, select, textarea {
-  cursor: none !important;
-}
+
 
 /* Lenis recommended css */
 html.lenis, html.lenis body {

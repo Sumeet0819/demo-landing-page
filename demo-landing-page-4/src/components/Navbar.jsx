@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import gsap from 'gsap';
 import { Home } from 'lucide-react';
 
 const Navbar = () => {
   const navRef = useRef(null);
+  const location = useLocation();
 
   useEffect(() => {
     gsap.fromTo(
@@ -34,23 +36,15 @@ const Navbar = () => {
 
       {/* Nav Links */}
       <div className="hidden md:flex items-center gap-2 bg-[#2E3129] p-1.5 rounded-full pointer-events-auto shadow-sm">
-        <a href="#home" className="flex items-center gap-2 bg-white text-[#2E3129] px-5 py-2 rounded-full text-sm font-semibold transition-colors">
+        <Link to="/" className={`flex items-center gap-2 px-5 py-2 rounded-full text-sm font-semibold transition-colors ${location.pathname === '/' ? 'bg-white text-[#2E3129]' : 'text-gray-300 hover:text-white'}`}>
           <Home className="w-4 h-4" />
           Home
-        </a>
-        <a href="#about" className="text-gray-300 hover:text-white px-4 py-2 text-sm font-medium transition-colors">About Us</a>
-        <a href="#reviews" className="text-gray-300 hover:text-white px-4 py-2 text-sm font-medium transition-colors">Reviews</a>
-        <a href="#products" className="text-gray-300 hover:text-white px-4 py-2 text-sm font-medium transition-colors">Products</a>
-        <a href="#blog" className="text-gray-300 hover:text-white px-4 py-2 text-sm font-medium transition-colors">Blog</a>
+        </Link>
+        <Link to="/about" className={`px-4 py-2 text-sm font-medium transition-colors rounded-full ${location.pathname === '/about' ? 'bg-white text-[#2E3129]' : 'text-gray-300 hover:text-white'}`}>About Us</Link>
+        <Link to="/blog" className={`px-4 py-2 text-sm font-medium transition-colors rounded-full ${location.pathname === '/blog' ? 'bg-white text-[#2E3129]' : 'text-gray-300 hover:text-white'}`}>Blog</Link>
       </div>
 
-      {/* CTA */}
-      <div className="flex items-center gap-6 pointer-events-auto text-brand-dark">
-        <button className="hover:opacity-70 transition-opacity text-sm font-semibold">Sign In</button>
-        <button className="border border-gray-400 px-5 py-2 rounded-full text-sm font-semibold hover:border-brand-dark transition-colors">
-          Sign up Free
-        </button>
-      </div>
+      {/* CTA removed */}
     </nav>
   );
 };

@@ -1,19 +1,15 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Lenis from 'lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-import CustomCursor from './components/CustomCursor';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Stats from './components/Stats';
-import FeaturesGallery from './components/FeaturesGallery';
-import Banner from './components/Banner';
-import Solutions from './components/Solutions';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
+import MainLayout from './components/MainLayout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
 
 function App() {
   useEffect(() => {
@@ -45,17 +41,15 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full relative overflow-hidden bg-brand-gray">
-      <CustomCursor />
-      <Navbar />
-      <Hero />
-      <Stats />
-      <FeaturesGallery />
-      <Banner />
-      <Solutions />
-      <CTA />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="blog" element={<Blog />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

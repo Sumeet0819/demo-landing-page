@@ -13,6 +13,7 @@ const statsData = [
 
 const Stats = () => {
   const sectionRef = useRef(null);
+  const numberRefs = useRef([]);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -31,6 +32,25 @@ const Stats = () => {
           }
         }
       );
+
+      numberRefs.current.forEach((el, index) => {
+        if (!el) return;
+        const targetValue = statsData[index].value;
+        const obj = { val: 0 };
+        
+        gsap.to(obj, {
+          val: targetValue,
+          duration: 2,
+          ease: 'power2.out',
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: 'top 80%',
+          },
+          onUpdate: () => {
+            el.innerText = Math.round(obj.val);
+          }
+        });
+      });
     }, sectionRef);
 
     return () => ctx.revert();
@@ -42,7 +62,9 @@ const Stats = () => {
         {statsData.map((stat, idx) => (
           <div key={idx} className="stat-item opacity-0 flex flex-col gap-3 w-full md:flex-1 md:pl-10 first:pl-0 pt-6 md:pt-0 first:pt-0">
             <h3 className="text-4xl md:text-[3rem] font-medium text-brand-dark tracking-tight">
-              {stat.prefix || ''}{stat.value}{stat.suffix || ''}
+              {stat.prefix || ''}
+              <span ref={(el) => numberRefs.current[idx] = el}>0</span>
+              {stat.suffix || ''}
             </h3>
             <p className="text-[13px] text-gray-500 font-medium">{stat.label}</p>
           </div>
