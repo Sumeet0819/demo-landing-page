@@ -8,7 +8,7 @@ const activities = [
     {
         title: "Spa & Wellness",
         desc: "Relax in our panoramic sauna or book a massage session right in your cabin.",
-        img: "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?q=80&w=1000&auto=format&fit=crop"
+        img: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1000&auto=format&fit=crop"
     },
     {
         title: "Forest Trails",

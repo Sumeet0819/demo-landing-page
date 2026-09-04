@@ -60,7 +60,7 @@ const Accommodation = () => {
             {/* Large Card - Left Column */}
             <div className="md:col-span-1 cabin-card">
                 <CabinCard 
-                    image="https://images.unsplash.com/photo-1622396481328-9b1b9e879e9d?q=80&w=1000&auto=format&fit=crop"
+                    image="https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1000&auto=format&fit=crop"
                     title="Lodge with pool"
                     guests="1-6"
                     large
@@ -71,9 +71,9 @@ const Accommodation = () => {
             <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
                     { title: 'Lodge Family', guests: '1-4', img: 'https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=1000&auto=format&fit=crop' },
-                    { title: 'A-frame', guests: '1-2', img: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=1000&auto=format&fit=crop' },
-                    { title: 'Lodge with grill', guests: '1-4', img: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1000&auto=format&fit=crop' },
-                    { title: 'Lodge Standard', guests: '1-2', img: 'https://images.unsplash.com/photo-1499696010180-ea84df2253db?q=80&w=1000&auto=format&fit=crop' }
+                    { title: 'A-frame', guests: '1-2', img: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?q=80&w=1000&auto=format&fit=crop' },
+                    { title: 'Lodge with grill', guests: '1-4', img: 'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1000&auto=format&fit=crop' },
+                    { title: 'Lodge Standard', guests: '1-2', img: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1000&auto=format&fit=crop' }
                 ].map((cabin, i) => (
                     <div key={i} className="cabin-card">
                         <CabinCard 
