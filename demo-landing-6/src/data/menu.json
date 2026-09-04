@@ -1,0 +1,129 @@
+[
+  {
+    "category": "Clay Oven & traditional Appetizers",
+    "items": [
+      { "name": "HOM Special Tandoori Platter Non-Veg", "price": "1450", "type": "Non-Veg", "description": "Four Piece Ajwainee Tandoori Jheenga | Four Piece Lasooni Mahi Tikka | Four Piece Achari Mahi tikka | Four Piece Mutton Sheek Kabab" },
+      { "name": "HOM Special Tandoori Platter -Veg", "price": "1250", "type": "Veg", "description": "Four Piece Dahi Ke Kebab | Four Piece Kali Mirch Tikka | Four Piece Subz Saunfiya Seekh | Four Piece Malai Broccoli Kabab" },
+      { "name": "Ajwainee Tandoori Jheenga", "price": "650", "type": "(Prawns)", "description": "Prawns Marinated with Yoghurt | Indian Spices | Flavoured with Carom Seed" },
+      { "name": "Lasooni Mahi Tikka", "price": "440", "type": "(Fish)", "description": "Tandoori Smoked Fish | Garlic Flavour Inspired By The North West Frontier" },
+      { "name": "Machi Tulsiyani Mahi Tikka", "price": "450", "type": "(Fish)", "description": "Basil Flavored Fish | Cooked in Tandoor" },
+      { "name": "Achari Mahi tikka", "price": "450", "type": "(Fish)", "description": "Cubes of Fish Infused with Indian Spices | Cooked in Tandoor" },
+      { "name": "Seekh Kebab", "price": "410|430|580", "type": "(Paneer/ Chicken/Mutton)", "description": "Meat or cottage cheese Minced with Herbs | Indian Spices | Cooked In Clay Oven" },
+      { "name": "Tandoori Murg (Half/Full)", "price": "650/945", "type": "(Chicken)", "description": "Chicken Marinated with Yogurt and Authentic Indian Spices | Cooked in A Clay Oven" },
+      { "name": "Tangri Kabab", "price": "440", "type": "(Chicken)", "description": "Chicken Leg Marinated with Yogurt and Authentic Indian Spices | Char Grilled To Perfection" },
+      { "name": "Mirchi Murgh Tikka", "price": "440", "type": "(Chicken)", "description": "Boneless Chicken Leg | Yogurt | Flavoured with Chilli | Finished in Clay Oven" },
+      { "name": "Malai Kabab Tikka", "price": "360|410|550", "type": "(Paneer/Chicken/Prawns)", "description": "Crusted with a Perfect Combination | Yogurt | Grated Cheese | Fresh Cream | Ginger Garlic Paste | Indian Spicy | Finished in Clay Oven" },
+      { "name": "Kali Mirch Tikka", "price": "360|410|550|550", "type": "(Paneer/Chicken/Prawns/Fish)", "description": "Crusted with a Perfect Combination | Grated Cheese | Yogurt | Ginger Garlic Paste | Flakes of Fresh Ground Black Pepper | Finished in Clay Oven" },
+      { "name": "Dahi Ke Kebab", "price": "380", "type": "(Paneer)", "description": "Classic Indian Appetizer | Made Of Hung Curd" },
+      { "name": "Subz Saunfiya Seekh", "price": "390", "type": "(Veg)", "description": "Lightly Tempered Seasonal Vegetable Seekh Kebab | Flavoured with Fennel Seeds | Finished in Clay Oven" },
+      { "name": "Tandoori Mushrooms", "price": "410", "type": "(Mushroom)", "description": "Mushrooms Marinated with Yogurt | Tandoori Spices | Cooked In A Clay Oven" },
+      { "name": "Koliwada", "price": "550 / 450", "type": "(Prawns/Fish)", "description": "Basa Fish Fillets | Lemon Juice | Ginger and Garlic Paste | Ajwain | Gram Flour | Rice Flour | Yoghurt | Curry Leaves | Dry Red Chilli" }
+    ]
+  },
+  {
+    "category": "Pan Asian Noodles",
+    "items": [
+      { "name": "Veg Hakka Noodles", "price": "405|425|495|465", "type": "(Veg/Chicken/Prawn/Egg)", "description": "Wok Tossed Noodles | Shredded Vegetable | Soya Sauce | Green Onion | Seasoning" },
+      { "name": "Burnt Garlic Noodles", "price": "405|425|495|465", "type": "(Veg/Chicken/Prawn/Egg)", "description": "Wok Tossed Noodles | Shredded Vegetable | Bell Pepper | Garlic | Butter | Green Onion | Seasoning" },
+      { "name": "Malaysian Noodles", "price": "425|445|495|465", "type": "(Veg/Chicken/Prawn/Egg)", "description": "Diced Vegetable | Flat Noodles | Ginger | Garlic | Dry Red Chilli | Malaysian Sauce | Green Onion | Seasoning" },
+      { "name": "La Yu Ban Mien Noodles", "price": "425|445|495|465", "type": "(Paneer/Chicken/Fish/Prawn)", "description": "Wok Tossed Homemade Thick Noodles | Dark Soy Sauce | Light Soy Sauce | Chilli Crisp Oil | Chinese Black Vinegar | Sesame Oil | Chopped Ginger | Sesame Seeds | Chopped Green Onion | Olive Oil" },
+      { "name": "Pad Thai Noodles", "price": "425|445|495|465", "type": "(Veg/Chicken/Prawn)", "description": "Rice Stick Noodles | Garlic | Crushed Peanuts | Bean Sprouts | Chilli Flakes | Pad Thai Sauce | Seasoning" },
+      { "name": "Chilli Oyster Noodles", "price": "485|535|595", "type": "(Veg/Paneer/Chicken/Fish/Prawn)", "description": "Wok Tossed Homemade Flat Noodles | Fresh Red Chilli | Chopped Garlic | Dark Soy Sauce | Oyster Sauce | Chopped Green Onion | Olive Oil" }
+    ]
+  },
+  {
+    "category": "Small Bowls",
+    "items": [
+      { "name": "Thai Curry Red with Jasmine Rice Bowl", "price": "655|675|695|715|765|765", "type": "(Veg/Paneer/Tofu/Chicken/Prawns/Fish)", "description": "Homemade Thai Curry | Basil and Fresh Red Chilli Jasmine Rice" },
+      { "name": "Thai Curry Green with Jasmine Rice Bowl", "price": "655|675|695|715|765|765", "type": "(Veg/Paneer/Tofu/Chicken/Prawns/Fish)", "description": "Homemade Thai Curry | Basil and Fresh Red Chilli Jasmine Rice" }
+    ]
+  },
+  {
+    "category": "Ramen",
+    "items": [
+      { "name": "Spicy Miso Ramen", "price": "595|645|675|675", "type": "(Veg/Tofu/Chicken/Prawn/Fish)", "description": "Broth | Noodles | Miso Paste | Chopped Ginger and Garlic | Chopped Green Onion | Chilli Oil | Soya Sauce | Shiitake Mushroom | Corn" },
+      { "name": "Homemade Ramen", "price": "585|635|665|665", "type": "(Veg/Chicken/Prawn/Fish)", "description": "Broth | Noodles | Spinach | Pok Choy | Shiitake Mushroom | Chopped Green Onion | Red Pepper Flakes | Chilli Oil" }
+    ]
+  },
+  {
+    "category": "Beverages",
+    "items": [
+      { "name": "Packaged drinking water", "price": "50", "type": "", "description": "" },
+      { "name": "Aerated beverages", "price": "90", "type": "", "description": "" },
+      { "name": "Red bull", "price": "160", "type": "", "description": "" },
+      { "name": "Butter milk", "price": "70", "type": "", "description": "" },
+      { "name": "Lassi (Sweet| Salted)", "price": "120", "type": "", "description": "" },
+      { "name": "Canned Juice (As per Availability)", "price": "130", "type": "", "description": "" },
+      { "name": "Fresh Lime soda (Sweet| Salted)", "price": "100", "type": "", "description": "" }
+    ]
+  },
+  {
+    "category": "Western Soup",
+    "items": [
+      { "name": "Roasted Tomato Soup", "price": "195", "type": "(Veg)", "description": "Roasted Tomato Puree | Chopped Garlic | Chopped Onion | Fresh Basil | fresh Cream | Garlic Bread | Croutons" },
+      { "name": "Caldo Verde", "price": "220 / 245 / 275", "type": "(Veg / Chicken /Prawns)", "description": "Goan Portuguese Potato Soup | Chopped Garlic | Chopped Onion | Shredded Spinach | Olive Oil | Fresh Cream" },
+      { "name": "Broccoli Almond Soup", "price": "255", "type": "(Veg)", "description": "Cream | Leeks | Rosemary | Parmesan Cheese | minced Almond" }
+    ]
+  },
+  {
+    "category": "Pan Asian Soup",
+    "items": [
+      { "name": "Manchow Soup", "price": "205 / 225 / 265", "type": "(Veg / Chicken /Prawns)", "description": "Chopped Broccoli | Chopped Carrot | Chopped Cabbage | Chopped Tomato | Chopped Coriander | Chopped Fresh Green Chilli | Chopped Garlic | Soya Sauce | Seasoning | Served with Crispy Noodles" },
+      { "name": "Lemon Coriander Soup", "price": "205 / 225 /265", "type": "(Veg / Chicken /Prawns)", "description": "Thick Soup | Chopped Ginger | Coriander Paste | Fresh Green Chilli | Lemon Juice" },
+      { "name": "Crispy wonton soup", "price": "245 / 285 / 295", "type": "(Veg / Chicken /Prawns)", "description": "Chopped Ginger | Chopped Garlic | homemade asian Gun powder | Coriander Leaves | Carrots thinly sliced | Spring Onion sliced" },
+      { "name": "Spicy Asian Mushroom Soup", "price": "230 / 240 / 260 / 280", "type": "(Veg / Mushroom / Chicken /Prawns)", "description": "Shitake Mushroom | Fresh Red Chilli | Chopped Garlic | Red Vinegar | Chilli Garlic Sauce | Red Pepper Flakes | Udon Noodles" },
+      { "name": "Tom Yum", "price": "245 / 255 / 275 / 295", "type": "(Veg / Chicken /Prawns)", "description": "Classic Spicy Thai Broth | Lemongrass | Galangal | Fresh Red Chilli | Kaffir Lime Leaves | Straw Mushroom" },
+      { "name": "Khow Suey", "price": "360 / 375 / 425", "type": "(Veg / Chicken /Prawns)", "description": "Burmese Curry Flavoured Soup | Chopped Garlic | Chopped Ginger | Chopped Lemongrass | Steam Noodles | Fried Garlic Flakes | Fried Onion Flakes | Roasted Peanuts | Lemon Wedges | Chilli Flakes | Chopped Coriander" },
+      { "name": "Burmese Sumasa Soup", "price": "360 / 375 /425", "type": "(Veg / Chicken /Prawns)", "description": "Carrots thinly sliced | Chilli flakes | Sliced Green Chillies Turmeric powder | Turmeric powder | Black pepper | Garam Masala powder | Coriander Powder | Coriander Leaves | Lemon wedges | Spring Onion sliced" }
+    ]
+  },
+  {
+    "category": "Western Appetizers",
+    "items": [
+      { "name": "Fish and Chips", "price": "495", "type": "(Fish)", "description": "white fish fillets|cornstarch|Paprika| Ground black pepper| Chopped parsley| Panko bread crumbs|Lime Wedges| seasoning| Served with Tartare sauce" },
+      { "name": "Chicken and Chips", "price": "445", "type": "(Chicken)", "description": "Chicken Breasts |cornstarch|Paprika| Ground black pepper| Chopped parsley| Panko bread crumbs|Lime Wedges| seasoning| Served with Tartare sauce" },
+      { "name": "Peri Peri", "price": "340 / 365 / 495", "type": "(Paneer/ Chicken/Prawns)", "description": "Chopped Garlic | Red Fresno Chilli Peppers | Diced Red Bell Pepper | Fresh Thyme Leaves | Ground Black Pepper | Onion Powder | Olive Oil | Seasoning" },
+      { "name": "Street Tacos", "price": "385 / 415", "type": "(Veg / Chicken)", "description": "Taco Shell | Kidney Beans | Chopped Red Onion | Chopped Garlic | Olive Oil | Tomato Concasse | Oregano | Red Chilli Flakes | Seasoning" }
+    ]
+  },
+  {
+    "category": "Pan Asian Appetizers",
+    "items": [
+      { "name": "Classic Chilli", "price": "355 / 405 / 495", "type": "(Paneer/ Chicken/Prawns)", "description": "Diced Fresh Green Chilli | Dark Soy Sauce | Red Chilli Paste | Chopped Garlic | Chopped Ginger | Green Onion Seasoning" },
+      { "name": "Classic Manchurian", "price": "275 / 345 / 385 / 495", "type": "(Veg / Paneer/ Chicken /Prawns)", "description": "Chopped Onion | Chopped Ginger | Chopped Garlic | Chopped Green Chilli | Chopped Coriander Leaf | Dark Soy Sauce | Chopped Green Onion | Seasoning" },
+      { "name": "Classic Roll", "price": "305 / 385 / 465", "type": "(Veg / Chicken /Prawns)", "description": "Roll Sheets | Shredded Bell Pepper | Shredded Cabbage | Shredded Carrot | Shredded Onion | Chopped Garlic | Chopped Ginger | Red Chilli Paste | Soy Sauce | Green Onion | Seasoning" },
+      { "name": "Crispy Lotus Stem In Chilli Plum Sauce", "price": "425", "type": "(Veg)", "description": "Chopped Ginger | Chopped Garlic | Chilli Flakes | Plum Sauce | Vinegar | Chilli Oil | Green Onion | White Sesame Seeds | Seasoning" },
+      { "name": "Five Spice", "price": "350 / 405 / 495", "type": "(Veg / Chicken /Prawns)", "description": "Golden Fried | Chopped Ginger | Chopped Garlic | Five Spice Powder | Red Chilli Sauce | Tomato Ketchup | White Vinegar | Green Onion | Seasoning" },
+      { "name": "Tempura", "price": "355 / 405 / 495", "type": "(Veg / Chicken /Prawns)", "description": "Deep Fried Tempura | Light Crispy Buttered | Kikkoman Soy Dipping | Seasoning" },
+      { "name": "Drums of Heaven", "price": "425", "type": "(Chicken)", "description": "Deep Fried Chicken Drumstick | Chopped Ginger | Chopped Garlic | Red Chilli Paste | Tomato Ketchup | Green Onion | Light Soy Sauce | Seasoning" },
+      { "name": "Pickin", "price": "365 / 495", "type": "(Paneer/ Chicken/Prawns)", "description": "Crispy Fried | Mixed with Garlic Powder | Ground Black Pepper | Lime Juice | Served with Homemade Chilli Dip" },
+      { "name": "Teriyaki Chicken Wings", "price": "425", "type": "(Chicken)", "description": "Marinated Chicken Wings | Coated with Sticky Sweet and Tangy Teriyaki Sauce" },
+      { "name": "Honey chilli potato", "price": "315", "type": "(Veg)", "description": "Deep Fried Potato | Chopped Ginger | Chilli Flakes | Honey | Chilli Oil | White Sesame Seeds | Seasoning" }
+    ]
+  },
+  {
+    "category": "Pan Asian Salads",
+    "items": [
+      { "name": "Thai Leafy Salad", "price": "350 / 350", "type": "(Paneer/Chicken)", "description": "Iceberg Lettuce | Lollo Rosso Lettuce | Small Diced Green Capsicum | Small Dice Red Capsicum | Small Diced Yellow Capsicum | Diced Green Onion | Fresh Red Chilli & Garlic Dressing" },
+      { "name": "Gado Gado", "price": "250 / 350", "type": "(Veg/Chicken)", "description": "Small Diced Carrot | Small Diced Broccoli | Small Diced Zucchini | Small Diced Mushroom |Small Diced Baby Corn | Lime Juice | Light Soy Sauce | Chilli Flakes | Homemade Peanut Dressing" }
+    ]
+  },
+  {
+    "category": "MAINS-DESI ZAYKA(Veg)",
+    "items": [
+      { "name": "Paneer Makhani", "price": "380", "type": "(Paneer)", "description": "Smooth Makhani Gravy | Cubed Cottage Cheese | Ginger and Garlic Past | Kasoori Methi | Chopped Coriander | Unsalted Butter | Fresh Cream" },
+      { "name": "Patiala", "price": "390", "type": "(Veg)", "description": "Smooth red gravy| Onion| ginger and garlic| coriander| Papad roll| Fresh cream" },
+      { "name": "Paneer Tikka Masaledar", "price": "380", "type": "(Paneer)", "description": "Tandoor Roasted Paneer | Tomato and Cashew Nuts Gravy | Ginger and Garlic Paste |Garam Masala | Chilli Powder | Chopped Onion | Chopped Tomato | Chopped Coriander | Unsalted Butter | Fresh Cream" },
+      { "name": "Palak", "price": "380 / 380", "type": "(Paneer/Mushrooms)", "description": "Smooth Palak Gravy | Dried Red Chilli | Ginger and Garlic Paste | Chilli Powder | Coriander Powder | Chopped Green Chilli | Unsalted Butter | Fresh Cream" },
+      { "name": "Kadai", "price": "390 / 410 / 410", "type": "(Veg/Paneer/Mushrooms)", "description": "Cubed Red and Green Bell Pepper | Cubed Onion | Chopped Onion | Chopped Tomato | Ginger and Garlic Paste | Juliennes Ginger | Kadai Masala | Chopped Coriander | Unsalted Butter" },
+      { "name": "Paneer Lababdar", "price": "390", "type": "(Paneer)", "description": "Cubed Cottage Cheese | Onion | Cashew Nut Paste | Onion Gravy | Chopped Tomato | Ginger and Garlic Paste | Chopped Coriander | Kasoori methi| Fresh cream" },
+      { "name": "Malai Kofta", "price": "410", "type": "(Paneer)", "description": "Potato and Cottage Cheese Dumplings | Cashew Nut Paste | Cardamom Powder | Fresh Cream | Ginger and Garlic Paste | Raisins| Chopped Coriander | Unsalted Butter | Fresh Cream" },
+      { "name": "Veg Kolhapuri", "price": "370", "type": "(Veg)", "description": "Mixed Vegetables|Fresh tomato puree| Garam Masala | Ginger garlic paste| Kasoori Methi | Fresh coriande" },
+      { "name": "Mix Vegetable", "price": "360", "type": "(Veg)", "description": "Mixed Vegetables | Fresh Tomato Puree | Kasuri Methi | Red Chilli Powder | Coriander Powder | Garam Masala | Chopped Onion | Chopped Tomato | Chopped Coriander | Unsalted Butter" },
+      { "name": "Subz Handi", "price": "360", "type": "(Veg)", "description": "Fresh Seasonal Vegetable | Cashew | Onion | Tomato | Saffron" },
+      { "name": "Dum Aloo Punjabi", "price": "340", "type": "(Veg)", "description": "Boiled Baby Potatoes | Tomato Gravy | Chopped Onion | Chopped Tomato | Ginger and Garlic Paste | Amchur Powder | Garam Masala | chopped green chilli Chopped Coriander | Unsalted Butter" },
+      { "name": "Dal Tadka", "price": "250", "type": "(Lentils)", "description": "Yellow Lentils | Garlic | Tomato | Onion | Red Chilli | Coriander" },
+      { "name": "Dal Makhani", "price": "360", "type": "(Lentils)", "description": "48 hrs Stewed whole urad lentils|Home churned butter| Cream| In house spices" }
+    ]
+  }
+]
